@@ -1,10 +1,10 @@
 import React from 'react';
+import { RouterWrapper } from './router';
 
-const App = () => {
-  return(
-    <h1>Hello world для проекта - sbaraholka</h1>
-  )
-}
+const App = () => (
+  <RouterWrapper />
+)
+
 
 export default App;
 
