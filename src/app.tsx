@@ -5,6 +5,5 @@ const App = () => (
   <RouterWrapper />
 )
 
-
 export default App;
 
