@@ -11,3 +11,11 @@
     * Отображение выложенных товаров пользователя
     * Личные данные
 * Создание карточки товара
+
+## Stack
+***
+* @salutejs/plasma-ui
+* react-router-dom 6.9.0
+* @reduxjs/toolkit
+* eslint & prettier
+
