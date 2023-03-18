@@ -22,3 +22,10 @@
 -  /processes - папка для авторизации 
 
 -  документация https://feature-sliced.design/docs/get-started/tutorial
+## Stack
+***
+* @salutejs/plasma-ui
+* react-router-dom 6.9.0
+* @reduxjs/toolkit
+* eslint & prettier
+
