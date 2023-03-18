@@ -5,13 +5,14 @@ import App from './app';
 
 export default () => <App/>;
 
-export const mount = (Сomponent, element = document.getElementById('src')) => {
+export const mount = (Component, element = document.getElementById('src')) => {
+  // @ts-ignore
   const root = ReactDOM.createRoot(element);
-  root.render(<Сomponent/>);
+  root.render(<Component/>);
 
   if(module.hot) {
-    module.hot.accept('./src', ()=> {
-      root.render(<Сomponent/>);
+    module.hot.accept('./app', ()=> {
+      root.render(<Component/>);
     })
   }
 };

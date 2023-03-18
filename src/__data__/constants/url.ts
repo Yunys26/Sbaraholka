@@ -1,3 +1,5 @@
 export const URLs = {
-    main: '/sbaraholka'
+    main: '/sbaraholka',
+    auth: '/auth',
+    user: '/user/:userId'
 }
