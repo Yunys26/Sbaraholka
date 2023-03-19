@@ -21,12 +21,22 @@
     "homepage": "https://github.com/Yunys26/Sbaraholka#readme",
     "dependencies": {
         "@ijl/cli": "^5.0.2",
+        "@salutejs/plasma-icons": "^1.133.0",
+        "@salutejs/plasma-tokens": "^1.42.0",
+        "@salutejs/plasma-ui": "^1.177.0",
         "@types/react": "^18.0.28",
         "@types/react-dom": "^18.0.11",
         "express": "^4.18.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-router-dom": "^6.9.0",
+        "react-scripts": "^5.0.1",
+        "styled-components": "^5.3.9",
         "typescript": "^4.9.5"
+    },
+    "devDependencies": {
+        "sass": "^1.59.3",
+        "sass-loader": "^13.2.1",
+        "webpack": "^5.76.2"
     }
 }
