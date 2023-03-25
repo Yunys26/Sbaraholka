@@ -1,0 +1,13 @@
+.header {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 40px;
+    box-shadow: 0 8px 16px rgba(38, 38, 38, 0.16), 0 1px 0 rgba(38, 38, 38, 0.04);
+  }
+  &__logo{
+    height: 24px ;
+  }
+}
