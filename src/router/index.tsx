@@ -1,8 +1,9 @@
 import React from 'react'
-import {RouterProvider, createBrowserRouter, createRoutesFromElements, Route, Routes} from 'react-router-dom'
+import {RouterProvider, createBrowserRouter, createRoutesFromElements, Route} from 'react-router-dom'
 import {URLs} from '../__data__/constants/url';
 import {AuthPage, MainPage, UserProfilePage} from "../pages";
 import {Header} from "../widgets";
+import {createTheme, ThemeProvider} from "@mui/material";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -17,6 +18,16 @@ const router = createBrowserRouter(
 
 export const RouterWrapper = () => {
     return (
-        <RouterProvider router={router}/>
+        <ThemeProvider theme={theme}>
+            <RouterProvider router={router}/>
+        </ThemeProvider>
     )
 }
+
+const theme = createTheme({
+    palette: {
+        primary: {
+            main: "#21A038",
+        },
+    },
+});
