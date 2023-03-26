@@ -1,0 +1,19 @@
+.header {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 40px;
+    border-bottom: rgba(26, 26, 26, 0.1) solid 1px;
+    background-color: white;
+  }
+  &__logo{
+    height: 24px ;
+  }
+}
+
+li, a,{
+  text-decoration: none;
+  color: #333;
+}

@@ -1,5 +1,6 @@
-$body-color: red;
-
+$grey-light: #F5F5F5;
+$black-text: #333;
 body {
-    color: $body-color;
+    color: $black-text;
+    background-color: $grey-light;
 }
