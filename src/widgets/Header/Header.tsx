@@ -3,7 +3,6 @@ import {Link, Outlet} from "react-router-dom";
 import {URLs} from "../../__data__/constants/url";
 import Button from "@mui/material/Button"
 import './Header.scss'
-// @ts-ignore
 import logo from '../../assets/svg/Logo.svg'
 import LoginIcon from '@mui/icons-material/Login';
 import {SearchComponent} from "./SearchComponent/SearchComponent";
