@@ -3,7 +3,7 @@ import {Link, Outlet} from "react-router-dom";
 import {URLs} from "../../__data__/constants/url";
 import Button from "@mui/material/Button"
 import './Header.scss'
-import logo from '../../assets/svg/Logo.svg'
+import logo from '../../shared/assets/Logo.svg'
 import LoginIcon from '@mui/icons-material/Login';
 import {SearchComponent} from "./SearchComponent/SearchComponent";
 import {Stack} from "@mui/material";
