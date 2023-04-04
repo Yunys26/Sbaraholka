@@ -16,6 +16,10 @@
         "types" : ["webpack-env", "node"],
         "resolveJsonModule": true
     },
+    "include": [
+        "@types/**/*",
+        "src/**/*",
+    ],
     "exclude": [
         "node_modules",
         "**/*.test.ts",
