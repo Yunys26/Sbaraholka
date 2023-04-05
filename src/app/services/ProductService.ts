@@ -1,12 +1,13 @@
-import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/dist/query/react"
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/dist/query/react"
 
 export const productsAPI = createApi({
     reducerPath: 'productsAPI',
-    baseQuery: fetchBaseQuery({baseUrl: 'https://angelinacp.github.io'}),
+    baseQuery: fetchBaseQuery({ baseUrl: '/api/' }),
     endpoints: (build) => ({
-        fetchAllProducts: build.query({
+        fetchAllProducts: build.query<void, void>({
             query: () => ({
-                url: 'mock.json',
+                // TODO: URL для примера
+                url: '/stands',
             })
         })
     })
