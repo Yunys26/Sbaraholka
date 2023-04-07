@@ -12,7 +12,7 @@
       "photos": [
         {
           "id": 1,
-          "url": "image1.png"
+          "url": "../../shared/assets/image1.png"
         }
       ]
     },
@@ -26,7 +26,7 @@
       "photos": [
         {
           "id": 2,
-          "url":"image2.png"
+          "url": "../../shared/assets/image2.png"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "photos": [
         {
           "id": 1,
-          "url":"image3.png"
+          "url": "../../shared/assets/image3.png"
         }
       ]
     },
@@ -54,7 +54,7 @@
       "photos": [
         {
           "id": 1,
-          "url":"image4.png"
+          "url": "../../shared/assets/image4.png"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "photos": [
         {
           "id": 1,
-          "url":"image5.png"
+          "url": "../../shared/assets/image5.png"
         }
       ]
     },
@@ -82,7 +82,7 @@
       "photos": [
         {
           "id": 1,
-          "url":"image6.png"
+          "url": "../../shared/assets/image6.png"
         }
       ]
     }
