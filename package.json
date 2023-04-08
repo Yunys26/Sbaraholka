@@ -8,7 +8,7 @@
         "build": "npm run clean && ijl-cli build --dev",
         "build:prod": "npm run clean && ijl-cli build",
         "clean": "rimraf dist",
-        "lint":"eslint"
+        "lint": "eslint"
     },
     "repository": {
         "type": "git",
@@ -30,12 +30,11 @@
         "@ijl/cli": "^5.0.2",
         "@mui/icons-material": "^5.11.11",
         "@mui/material": "^5.11.14",
-        "@reduxjs/toolkit": "^1.9.3",
-        "@types/react-redux": "^7.1.25",
-        "react-redux": "^8.0.5",
         "react-router-dom": "^6.9.0"
     },
     "devDependencies": {
+        "@reduxjs/toolkit": "^1.9.3",
+        "@types/react-redux": "^7.1.25",
         "@typescript-eslint/eslint-plugin": "^5.57.0",
         "@typescript-eslint/parser": "^5.57.0",
         "babel-eslint": "^10.1.0",
@@ -44,6 +43,7 @@
         "eslint-plugin-prettier": "^4.2.1",
         "eslint-plugin-react": "^7.32.2",
         "prettier": "2.8.7",
+        "react-redux": "^8.0.5",
         "sass": "^1.59.3",
         "sass-loader": "^13.2.1"
     }
