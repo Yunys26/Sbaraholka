@@ -1,3 +1,12 @@
 const router = require('express').Router();
 
-module.exports = router;
+const productsList = require('../templates/mock.json');
+
+module.exports = router
+  .get('/catalogue', (req, res) => {
+    res.send(productsList);
+  })
+  .post('/auth', (req, res) => {
+    res.send('Successful login');
+  });
+
