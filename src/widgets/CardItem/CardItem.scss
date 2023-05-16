@@ -1,0 +1,29 @@
+.SlideButton {
+ width: 85px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.87);
+  &Active{
+    width: 85px;
+    height: 3px;
+    background: #86C339;
+  }
+  &Wrapper {
+    padding: 10px;
+    display: flex;
+    background: #F5F5F5;
+    gap: 5px;
+  }
+
+  .name{
+
+  }
+  .price{
+
+  }
+  .city {
+
+  }
+  .date {
+
+  }
+}

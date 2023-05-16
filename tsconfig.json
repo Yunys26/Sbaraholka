@@ -7,18 +7,21 @@
         "outDir": "./dist/",
         "sourceMap": true,
         "esModuleInterop": true,
-        "noImplicitAny": false,
+        "noImplicitAny": true,
         "module": "esnext",
         "moduleResolution": "node",
-        "target": "es6",
-        "jsx": "react",
+        "target": "ES6",
+        "jsx": "react-jsx",
         "typeRoots": ["node_modules/@types", "src/typings"],
         "types" : ["webpack-env", "node"],
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true
     },
     "include": [
+        "./src/declarationFiles.d.ts",
         "@types/**/*",
         "src/**/*",
+
     ],
     "exclude": [
         "node_modules",

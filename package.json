@@ -42,9 +42,11 @@
         "eslint-config-prettier": "^8.8.0",
         "eslint-plugin-prettier": "^4.2.1",
         "eslint-plugin-react": "^7.32.2",
+        "file-loader": "^6.2.0",
         "prettier": "2.8.7",
         "react-redux": "^8.0.5",
         "sass": "^1.59.3",
-        "sass-loader": "^13.2.1"
+        "sass-loader": "^13.2.1",
+        "url-loader": "^4.1.1"
     }
 }
