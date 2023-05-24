@@ -2,21 +2,23 @@ import React from 'react';
 import { Container, TextField, Box, Typography } from '@mui/material';
 import { useState } from 'react';
 import Button from '@mui/material/Button';
-import { useGetAuthQuery } from '../../app/services/Service';
+import { useGetAuthMutation } from '../../app/services/Service';
 import { useNavigate } from 'react-router-dom';
+import { FormControl } from '@mui/material';
 
 export const AuthPage = () => {
-    const { data } = useGetAuthQuery();
+    const [getAuth, data] = useGetAuthMutation();
     const [login, setLogin] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate();
 
     const handleClick = () => {
+        getAuth();
     };
 
     return (
         <Container maxWidth='sm'>
-            <Box
+            <FormControl
                 sx={{
                     width: 400,
                     maxWidth: '100%',
@@ -46,11 +48,11 @@ export const AuthPage = () => {
                     />
                 </div>
                 <div>
-                    <Button variant='contained' size='large' onClick={handleClick}>
+                    <Button variant='contained' size='large' type='button' onClick={handleClick}>
                         Войти
                     </Button>
                 </div>
-            </Box>
+            </FormControl>
         </Container>
     );
 };
